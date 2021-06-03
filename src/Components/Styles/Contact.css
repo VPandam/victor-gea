@@ -1,5 +1,47 @@
 .contact {
-  padding-top: 100px;
-  height: 500px;
-  font-size: 3rem;
+  height: 250px;
+  width: 100%;
+  background-color: rgb(29, 51, 110);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logos__container {
+  width: 80%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+.logos__container div {
+  width: 100px;
+  height: 100px;
+
+  display: inline-block;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact .linkedin {
+  background-image: url("../../Images/linkedin.png");
+  margin-right: 100px;
+}
+.contact .github {
+  background-image: url("../../Images/github.png");
+  margin-left: 100px;
+}
+
+.logos__container div a {
+  width: 100px;
+  height: 100px;
+}
+
+@media screen and (max-width: 500px) {
+  .contact .linkedin {
+    margin-right: 50px;
+  }
+  .contact .github {
+    margin-left: 50px;
+  }
 }

@@ -5,8 +5,10 @@ class Home extends React.Component{
     render(){
         return(
             <div className='contact'>
-                <h1>CONTACT</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dignissimos exercitationem quod molestias laboriosam, minus porro facere rem magnam inventore ab, laborum ex voluptatem non tempore cumque nesciunt nulla est!</p>
+                <div className='logos__container'>
+                    <div className='linkedin'> <a href=""></a></div>
+                    <div className='github'> <a href=""></a></div>
+                </div>
             </div>
 
         );

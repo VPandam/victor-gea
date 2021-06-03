@@ -18,6 +18,7 @@
   color: #faf8f7;
   text-shadow: 1.5px 1.5px rgb(29, 29, 29);
   width: 600px;
+
   height: 200px;
   position: relative;
   left: 80px;
@@ -35,5 +36,44 @@ h2 {
   padding-left: 30px;
 }
 
-.home__textContainer:hover {
+@media screen and (max-width: 1024px) {
+  .home__textContainer {
+    color: #faf8f7;
+    text-shadow: 1.5px 1.5px rgb(29, 29, 29);
+    width: 400px;
+
+    height: 200px;
+    position: relative;
+    left: 50px;
+
+    background-color: rgba(70, 70, 71, 0.418);
+    border-radius: 17px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .home__textContainer {
+    color: #faf8f7;
+    text-shadow: 1.5px 1.5px rgb(29, 29, 29);
+    width: 200px;
+
+    height: 150px;
+    position: relative;
+    left: 20px;
+
+    background-color: rgba(70, 70, 71, 0.719);
+    border-radius: 17px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-size: 1rem;
+  }
 }
