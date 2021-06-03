@@ -1,0 +1,39 @@
+.home {
+  margin-top: px;
+  height: 100vh;
+  width: 100%;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: #faf8f7;
+  background-image: url("../../Images/code.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home__textContainer {
+  color: #faf8f7;
+  text-shadow: 1.5px 1.5px rgb(29, 29, 29);
+  width: 600px;
+  height: 200px;
+  position: relative;
+  left: 80px;
+
+  background-color: rgba(139, 141, 144, 0.191);
+  border-radius: 17px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home__textContainer h1,
+h2 {
+  padding-left: 30px;
+}
+
+.home__textContainer:hover {
+}
