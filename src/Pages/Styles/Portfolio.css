@@ -21,18 +21,6 @@
   flex-wrap: wrap;
 }
 
-.project__container div {
-  width: 300px;
-
-  height: 200px;
-
-  display: inline-block;
-
-  background-color: rgb(80, 126, 148);
-  margin-left: 20px;
-  margin-top: 30px;
-}
-
 @media screen and (max-width: 550px) {
   .text__container {
     font-size: 1.5rem;

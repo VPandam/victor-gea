@@ -13,10 +13,58 @@
   width: 65%;
 }
 
-.about__textContainer button {
-  padding: 10px 20px;
+.about__textContainer p {
+  margin-bottom: 20px;
+}
+
+.download-button {
+  padding: ;
   position: relative;
+
+  width: 200px;
+  height: 60px;
+
+  margin-left: calc(50% - 100px);
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
   top: 20px;
+  background-color: #53a5e4;
+  border-radius: 10px;
+  /* box-shadow: 1px 1px rgb(12, 12, 12); */
+}
+
+.download-icon {
+  height: 25px;
+  width: 25px;
+
+  display: inline-block;
+
+  position: absolute;
+  top: 19px;
+  left: 150px;
+  right: 0px;
+
+  background-image: url("../../Images/arrow_circle_down_black_24dp.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.download-button a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 15px 0px;
+  padding-left: 12px;
+  padding-right: 50px;
+  z-index: 1;
+
+  display: inline-block;
 }
 
 @media screen and (max-width: 550px) {

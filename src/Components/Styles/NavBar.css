@@ -8,44 +8,87 @@
   font-size: 1.4rem;
   position: fixed;
   top: 0px;
-  z-index: 1;
+  z-index: 10;
 }
 
 .navBar__list {
   display: flex;
   height: 100%;
   justify-content: flex-end;
+  align-items: center;
   position: relative;
-  top: 10px;
+  top: 0;
   z-index: -1;
   padding-right: 20px;
 }
 
 .navBar__list-li {
   list-style: none;
-  padding: 15px;
+  padding: ;
+  height: 77px;
+  width: 120px;
+  position: relative;
   text-align: center;
+}
+
+.navBar__list-li a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.navBar__Label {
+  position: relative;
+  top: calc(50% - 15px);
 }
 
 .navBar__list-li:hover {
   color: blanchedalmond;
+  background-color: #2f2d2a;
+  background-color: ;
 }
 
 .button-menu {
-  height: 77px;
-  width: 77px;
+  height: 50px;
+  width: 50px;
 
   position: relative;
   float: right;
   display: none;
 
-  background-image: url("../../Images/panda.png");
+  top: 10px;
+  right: 10px;
+
+  background-image: url("../../Images/list_white_24dp.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-@media screen and (max-width: 960px) {
+.button-up {
+  height: 50px;
+  width: 50px;
+
+  margin-left: 10px;
+  margin-top: 12px;
+
+  position: relative;
+  float: left;
+  display: ;
+
+  background-image: url("../../Images/home/2x/outline_home_white_24dp.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button-up a {
+  height: 50px;
+  width: 50px;
+  display: block;
+}
+
+@media screen and (max-width: 1024px) {
   .navBar .navBar__list {
     display: none;
   }
@@ -55,13 +98,16 @@
   }
 
   .button-menu-clicked {
-    height: 77px;
-    width: 77px;
+    height: 50px;
+    width: 50px;
+
+    top: 10px;
+    right: 10px;
 
     position: relative;
     float: right;
 
-    background-image: url("../../Images/panda.png");
+    background-image: url("../../Images/list_white_24dp.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -69,9 +115,31 @@
 
   .navBar__list-clicked {
     position: relative;
-    border-radius: 20px;
-    width: 200px;
+    top: ;
+    padding-top: ;
+    right: ;
+    left: ;
+
+    margin: ;
+
+    border-radius: 0px;
+    width: 100vw;
+    height: 100vh;
     float: right;
-    background-color: rgba(54, 54, 54, 0.863);
+    background-color: #2f2d2a;
+  }
+
+  .navBar__list-clicked li {
+    width: 100%;
+    height: ;
+  }
+  .navBar__list-clicked li a {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .navBar__list-clicked li a label {
+    top: 0px;
   }
 }

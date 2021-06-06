@@ -10,7 +10,10 @@ class About extends React.Component{
                     <p>Hi! Im a frontend developer looking for a job where i can 
                     contribute and develop myself as a professional of the industry
                     </p>
-                    <button> <a href='panda.png' download target=''>Download CV</a></button>
+                    <div className='download-button'> 
+                        <a href='panda.png' download target=''>Download CV</a> 
+                        <label className='download-icon'></label>
+                    </div>
                 </div>
             </div>
         );

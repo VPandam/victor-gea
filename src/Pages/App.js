@@ -5,7 +5,7 @@ import NavBar from '../Components/NavBar'
 import Home from '../Components/Home'
 import Contact from '../Components/Contact'
 import About from '../Components/About'
-import Portfolio from '../Components/Portfolio'
+import Portfolio from './Portfolio'
 import Skills from '../Components/Skills'
 
 
@@ -19,6 +19,7 @@ class App extends React.Component {
   }
   
   render(){
+
     return (
       <React.Fragment>
         <NavBar scrollTop={this.scrollTop} />

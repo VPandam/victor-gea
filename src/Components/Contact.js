@@ -6,8 +6,8 @@ class Home extends React.Component{
         return(
             <div className='contact'>
                 <div className='logos__container'>
-                    <div className='linkedin'> <a href=""></a></div>
-                    <div className='github'> <a href=""></a></div>
+                    <div className='linkedin'> <a href="https://www.linkedin.com/" target='_blank'></a></div>
+                    <div className='github'> <a href="http://www.github.com" target='_blank'></a></div>
                 </div>
             </div>
 
