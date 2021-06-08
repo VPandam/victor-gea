@@ -3,27 +3,8 @@ import './Styles/Portfolio.css'
 import Project from '../Components/Project'
 
 class Portfolio extends React.Component{
-
-
-    componentDidMount(){
-        let modals = document.getElementsByClassName("modal");
-        console.log(modals);
-
-         // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function(event) {
-                
-            for (let index = 0; index < modals.length; index++) {
-                if(event.target == modals[index]){
-                    event.target.style.display = 'none';
-                }
-                
-            } 
-           
-        }
-        
- 
-    }
-
+    
+    
     onModalClick(id){
         let modal = document.getElementById("myModal" + id );
         let closeSpan = document.getElementById('close-modal-span' + id)
@@ -37,6 +18,27 @@ class Portfolio extends React.Component{
             }
         }
     }
+
+    //Alternative function for closing modals
+    // componentDidMount(){
+    //     let modals = document.getElementsByClassName("modal");
+    //     console.log(modals);
+
+    //      // When the user clicks anywhere outside of the modal, close it
+    //     window.onclick = function(event) {
+                
+    //         for (let index = 0; index < modals.length; index++) {
+    //             if(event.target == modals[index]){
+    //                 event.target.style.display = 'none';
+    //             }
+                
+    //         } 
+           
+    //     }
+        
+ 
+    // }
+
 
     render(){
         return(
@@ -58,7 +60,8 @@ class Portfolio extends React.Component{
                         Its part of the frontend developer school in platzi, an online academy.'
                         id = '1'
                         onModalClick = {this.onModalClick}
-                        
+     
+
                     />                  
                     <Project
                         projectClass='space-man'
