@@ -72,6 +72,7 @@ class Portfolio extends React.Component{
                     />
                     <Project 
                         id = '3'
+                        projectDescription='Rick and morty memory game'
                         onModalClick = {this.onModalClick}
                     />              
                     <Project 
