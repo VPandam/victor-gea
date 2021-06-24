@@ -1,6 +1,5 @@
 import React from 'react'
 import './Styles/NavBar.css'
-import Panda from '../Images/panda.png'
 
 import {Link} from 'react-scroll'
 class NavBar extends React.Component{

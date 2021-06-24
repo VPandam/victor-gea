@@ -24,7 +24,6 @@
 
 .navBar__list-li {
   list-style: none;
-  padding: ;
   height: 77px;
   width: 120px;
   position: relative;
@@ -45,7 +44,6 @@
 .navBar__list-li:hover {
   color: blanchedalmond;
   background-color: #3b3935;
-  background-color: ;
 }
 
 .button-menu {
@@ -74,7 +72,6 @@
 
   position: relative;
   float: left;
-  display: ;
 
   background-image: url("../../Images/home/2x/outline_home_white_24dp.png");
   background-position: center;
@@ -115,12 +112,6 @@
 
   .navBar__list-clicked {
     position: relative;
-    top: ;
-    padding-top: ;
-    right: ;
-    left: ;
-
-    margin: ;
 
     border-radius: 0px;
     width: 100vw;
@@ -131,7 +122,6 @@
 
   .navBar__list-clicked li {
     width: 100%;
-    height: ;
   }
   .navBar__list-clicked li a {
     display: flex;
