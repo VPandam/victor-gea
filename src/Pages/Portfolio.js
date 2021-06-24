@@ -66,7 +66,7 @@ class Portfolio extends React.Component{
                     <Project
                         projectClass='space-man'
                         projectDescription='Its a very simple game made for learning Unity with C#. I learnt
-                        about object oriented programming and rendering in real time.'
+                        about object oriented programming, rendering in real time and procedural generation.'
                         id = '2'
                         onModalClick = {this.onModalClick}
                     />

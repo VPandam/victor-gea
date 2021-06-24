@@ -35,18 +35,18 @@ class NavBar extends React.Component{
                             <label className='navBar__Label'>Home</label> </Link></li>
 
                     <li className='navBar__list-li'>
-                        <Link Link onClick={this.handleClickLi} to="about" spy={true} smooth={true} >
+                        <Link onClick={this.handleClickLi} to="about" spy={true} smooth={true} >
                             <label className='navBar__Label'>About me</label></Link></li>
 
                     <li className='navBar__list-li'>
-                        <Link Link onClick={this.handleClickLi} to="skills" spy={true} smooth={true}  offset={-100} >
+                        <Link onClick={this.handleClickLi} to="skills" spy={true} smooth={true}  offset={-100} >
                             <label className='navBar__Label'>Skills</label></Link></li>
 
                     <li className='navBar__list-li'>
-                        <Link Link onClick={this.handleClickLi} to="portfolio" spy={true} smooth={true} >
+                        <Link onClick={this.handleClickLi} to="portfolio" spy={true} smooth={true} >
                         <label className='navBar__Label'>Portfolio</label></Link></li>
                     <li className='navBar__list-li'>
-                        <Link Link onClick={this.handleClickLi} to="contact" spy={true} smooth={true} >
+                        <Link onClick={this.handleClickLi} to="contact" spy={true} smooth={true} >
                             <label className='navBar__Label'>Contact</label></Link></li>
                 </ul>          
             </div>
