@@ -129,3 +129,47 @@
 .space-man {
   background-image: url("../../Images/space-man.png");
 }
+
+@media screen and (max-width: 1024px) {
+  .modal__project-image {
+    width: 100%;
+    height: 400px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .modal-content {
+    margin: 8% auto; /* 15% from the top and centered */
+    margin-top: 100px;
+    background-color: #faf8f7;
+    border: 1px solid #888;
+    width: 90%; /* Could be more or less, depending on screen size */
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .link-buttons__container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 20px 0;
+    margin: 20px 0;
+    align-items: center;
+  }
+  .link-buttons__container div {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .modal__project-image {
+    width: 100%;
+    height: 200px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

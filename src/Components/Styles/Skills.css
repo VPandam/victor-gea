@@ -100,9 +100,24 @@
     font-size: 1.5rem;
   }
   .skills__iconContainer {
+    width: 85%;
   }
 
   .skills__iconContainer div {
+    width: 90px;
+    height: 90px;
+
     margin: 30px 20px;
+  }
+
+  .skills__iconContainer .npm {
+    width: 120px;
+
+    margin-left: 0px;
+  }
+  .skills__iconContainer .mysql {
+    width: 120px;
+
+    margin-left: 0px;
   }
 }

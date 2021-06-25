@@ -34,11 +34,14 @@
   width: 100%;
   height: 100%;
   display: block;
+  cursor: pointer;
 }
 
 .navBar__Label {
   position: relative;
   top: calc(50% - 15px);
+
+  cursor: pointer;
 }
 
 .navBar__list-li:hover {
@@ -47,20 +50,22 @@
 }
 
 .button-menu {
-  height: 50px;
-  width: 50px;
+  height: 35px;
+  width: 35px;
 
   position: relative;
   float: right;
   display: none;
 
-  top: 10px;
-  right: 10px;
+  top: 20px;
+  right: 20px;
 
-  background-image: url("../../Images/list_white_24dp.svg");
+  background-image: url("../../Images/Icons/clipart365828.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  cursor: pointer;
 }
 
 .button-up {
@@ -73,10 +78,12 @@
   position: relative;
   float: left;
 
-  background-image: url("../../Images/home/2x/outline_home_white_24dp.png");
+  background-image: url("../../Images/Icons/PikPng.com_house-icon-png_531531.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  cursor: pointer;
 }
 
 .button-up a {
@@ -92,22 +99,6 @@
 
   .button-menu {
     display: initial;
-  }
-
-  .button-menu-clicked {
-    height: 50px;
-    width: 50px;
-
-    top: 10px;
-    right: 10px;
-
-    position: relative;
-    float: right;
-
-    background-image: url("../../Images/list_white_24dp.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 
   .navBar__list-clicked {

@@ -23,7 +23,7 @@ class NavBar extends React.Component{
 
             <div className='navBar'>
                 
-                <div className={this.state.clicked ?'button-menu-clicked' : 'button-menu' } 
+                <div className='button-menu'
                     onClick={this.handleClick} ></div>
                 <div className='button-up'> <Link to='home' spy={true} smooth={true}></Link></div>
                     
