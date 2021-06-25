@@ -24,11 +24,11 @@
   background-size: cover;
 }
 .contact .linkedin {
-  background-image: url("../../Images/linkedin.png");
+  background-image: url("../../Images/linkedin-min.png");
   margin-right: 100px;
 }
 .contact .github {
-  background-image: url("../../Images/github.png");
+  background-image: url("../../Images/github-min.png");
   margin-left: 100px;
 }
 

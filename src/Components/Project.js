@@ -24,11 +24,13 @@ function Portfolio(props) {
                     </div>
                     <div className='link-buttons__container'>
                         <div className='project-link button__modal'>
-                            <a href="https://www.google.com" target='_blank'></a>
+                            <a href={props.projectDeployLink} target='_blank' >
+                                <p className='modal__button_text'>Visit site</p>
+                            </a>
                         </div>
 
                         <div className='gitHub__project-link button__modal'>
-                            <a href="https://www.github.com" target='_blank'></a>
+                            <a href={props.projectGithubLink} target='_blank'></a>
                         </div>
                     </div>
                 </Modal>

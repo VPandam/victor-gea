@@ -38,19 +38,19 @@
 }
 
 .skills__iconContainer .html {
-  background-image: url("../../Images/html.png");
+  background-image: url("../../Images/html-min.png");
 }
 
 .skills__iconContainer .css {
-  background-image: url("../../Images/CSS-Logo.png");
+  background-image: url("../../Images/CSS-Logo-min.png");
 }
 
 .skills__iconContainer .js {
-  background-image: url("../../Images/js.png");
+  background-image: url("../../Images/js-min.png");
 }
 
 .skills__iconContainer .responsive {
-  background-image: url("../../Images/responsive-design.png");
+  background-image: url("../../Images/responsive-design-min.png");
 }
 
 .skills__iconContainer .react {
@@ -60,36 +60,36 @@
 .skills__iconContainer .npm {
   height: 50px;
 
-  background-image: url("../../Images/npm.png");
+  background-image: url("../../Images/npm-min.png");
 
   position: relative;
   top: ;
 }
 
 .skills__iconContainer .git {
-  background-image: url("../../Images/git.png");
+  background-image: url("../../Images/git-min.png");
 }
 
 .skills__iconContainer .java {
-  background-image: url("../../Images/java.png");
+  background-image: url("../../Images/java-min.png");
 }
 
 .skills__iconContainer .spring {
-  background-image: url("../../Images/spring.png");
+  background-image: url("../../Images/spring-min.png");
 }
 
 .skills__iconContainer .csharp {
-  background-image: url("../../Images/Csharp_Logo.png");
+  background-image: url("../../Images/Csharp_Logo-min.png");
 }
 
 .skills__iconContainer .terminal {
-  background-image: url("../../Images/Terminalicon.png");
+  background-image: url("../../Images/Terminalicon-min.png");
 }
 
 .skills__iconContainer .mysql {
   height: 63px;
 
-  background-image: url("../../Images/mysql.png");
+  background-image: url("../../Images/mysql-min.png");
 
   position: relative;
   top: ;

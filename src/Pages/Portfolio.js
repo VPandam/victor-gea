@@ -60,6 +60,8 @@ class Portfolio extends React.Component{
                         Its part of the frontend developer school in platzi, an online academy.'
                         id = '1'
                         onModalClick = {this.onModalClick}
+                        projectDeployLink = 'https://wonderful-mcclintock-aa79d0.netlify.app/'
+                        projectGithubLink = 'https://github.com/VPandam/Mobile-first'
      
 
                     />                  
@@ -72,8 +74,11 @@ class Portfolio extends React.Component{
                     />
                     <Project 
                         id = '3'
+                        projectClass='rick-and-morty'
                         projectDescription='Rick and morty memory game'
                         onModalClick = {this.onModalClick}
+                        projectDeployLink = 'https://hungry-saha-1d15ce.netlify.app/'
+                        projectGithubLink = 'https://github.com/VPandam/rick-and-morty-memo'
                     />              
                     <Project 
                         id = '4' 
