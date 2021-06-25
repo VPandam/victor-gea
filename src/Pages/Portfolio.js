@@ -51,19 +51,17 @@ class Portfolio extends React.Component{
 
                 <div className='project__container'>
                     
+                    
                     <Project 
-                        projectClass='mobile-first'
-                        projectDescription='Its the website of Batatabit, an app that let you buy and compare crypto. 
-                        In the website you can consult the different plans, whatch graphics and learn about
-                        what the app offers you.
-                        This is a project i made for learning html and css.
-                        Its part of the frontend developer school in platzi, an online academy.'
-                        id = '1'
+                        id = '3'
+                        projectClass='rick-and-morty'
+                        projectDescription='It is a Rick and Morty memory game made with JavaScript using React
+                        and the Rick and Morty API.
+                        When the game starts, the API is called and get photos of random characters in the series.
+                        Making this game i learnt about CSS animation and API calling.'
                         onModalClick = {this.onModalClick}
-                        projectDeployLink = 'https://wonderful-mcclintock-aa79d0.netlify.app/'
-                        projectGithubLink = 'https://github.com/VPandam/Mobile-first'
-     
-
+                        projectDeployLink = 'https://hungry-saha-1d15ce.netlify.app/'
+                        projectGithubLink = 'https://github.com/VPandam/rick-and-morty-memo'
                     />                  
                     <Project
                         projectClass='space-man'
@@ -73,12 +71,18 @@ class Portfolio extends React.Component{
                         onModalClick = {this.onModalClick}
                     />
                     <Project 
-                        id = '3'
-                        projectClass='rick-and-morty'
-                        projectDescription='Rick and morty memory game'
+                        projectClass='mobile-first'
+                        projectDescription='Its the website of Batatabit, in this app you can buy and compare crypto, 
+                        consult the different plans, whatch graphics and learn about
+                        what the app offers you.
+                        This is a project i made for learning html and css.
+                        Its part of the frontend developer school in platzi, an online academy.'
+                        id = '1'
                         onModalClick = {this.onModalClick}
-                        projectDeployLink = 'https://hungry-saha-1d15ce.netlify.app/'
-                        projectGithubLink = 'https://github.com/VPandam/rick-and-morty-memo'
+                        projectDeployLink = 'https://wonderful-mcclintock-aa79d0.netlify.app/'
+                        projectGithubLink = 'https://github.com/VPandam/Mobile-first'
+     
+
                     />              
                     <Project 
                         id = '4' 
