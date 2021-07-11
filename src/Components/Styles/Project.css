@@ -90,6 +90,7 @@
 
 .modal__text-container {
   padding: 20px 40px;
+  width: 100%;
   background-color: rgb(27, 26, 26);
   color: white;
   font-size: 1.9rem;
@@ -160,6 +161,11 @@
 .rick-and-morty {
   background-image: url("../../Images/rick-and-morty-3.png");
   background-position: bottom;
+}
+
+.badges {
+  background-image: url("../../Images/badges.png");
+  background-position: top;
 }
 
 @media screen and (max-width: 1024px) {

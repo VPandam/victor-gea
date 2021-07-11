@@ -53,12 +53,27 @@ class Portfolio extends React.Component{
                     
                     
                     <Project 
+                        id = '4' 
+                        onModalClick = {this.onModalClick}
+                        projectClass='badges'
+                        projectDescription='A badge management system made with ReactJS.'
+                        projectDescription2='The API is made with Java Spring, allows you to create, read, update 
+                        and delete badges.' 
+                        projectDescription3='The API and the DB are deployed in heroku so it takes a while to load
+                        the first time.'
+                        projectDeployLink = 'https://suspicious-gates-57218c.netlify.app/'
+                        projectGithubLink = 'https://github.com/VPandam/Badge-Management-System'
+                        additionalLink = 'https://github.com/VPandam/Badges-API'
+                    />
+
+                    <Project 
                         id = '3'
                         projectClass='rick-and-morty'
-                        projectDescription='It is a Rick and Morty memory game made with JavaScript using React
-                        and the Rick and Morty API.
-                        When the game starts, the API is called and get photos of random characters in the series.
-                        Making this game i learnt about CSS animation and API calling.'
+                        projectDescription='It is a Rick and Morty memory game made with JavaScript using 
+                        React and the Rick and Morty API.'
+                        projectDescription2=' When the game starts, the API is called and gets photos of 
+                        random characters in the series.'
+                        projectDescription3=' Making this game i learnt about CSS animation and API calling.'
                         onModalClick = {this.onModalClick}
                         projectDeployLink = 'https://hungry-saha-1d15ce.netlify.app/'
                         projectGithubLink = 'https://github.com/VPandam/rick-and-morty-memo'
@@ -72,7 +87,7 @@ class Portfolio extends React.Component{
                     />
                     <Project 
                         projectClass='mobile-first'
-                        projectDescription='Its the website of Batatabit, in this app you can buy and compare crypto, 
+                        projectDescription='Its the website of Batatabit, in this web you can 
                         consult the different plans, whatch graphics and learn about
                         what the app offers you.
                         This is a project i made for learning html and css.
@@ -84,10 +99,7 @@ class Portfolio extends React.Component{
      
 
                     />              
-                    <Project 
-                        id = '4' 
-                        onModalClick = {this.onModalClick}
-                    />              
+                                  
                 </div>
                 
             </div>

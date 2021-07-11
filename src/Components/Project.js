@@ -20,7 +20,13 @@ function Portfolio(props) {
                 <Modal id={props.id}>
                     <div className={'modal__project-image' + ' ' + props.projectClass}></div>
                     <div className='modal__text-container'>
-                        <p>{props.projectDescription}</p>
+                        <p>
+                            {props.projectDescription}
+                            <br />
+                            {props.projectDescription2}
+                            <br />
+                            {props.projectDescription3}
+                        </p>
                     </div>
                     <div className='link-buttons__container'>
                         <div className='project-link button__modal'>
