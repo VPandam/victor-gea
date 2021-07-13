@@ -90,7 +90,7 @@ class Portfolio extends React.Component{
                         projectDescription='Its the website of Batatabit, in this web you can 
                         consult the different plans, whatch graphics and learn about
                         what the app offers you.
-                        This is a project i made for learning html and css.
+                        This is a project i made for learning html, css and responsive design. 
                         Its part of the frontend developer school in platzi, an online academy.'
                         id = '1'
                         onModalClick = {this.onModalClick}

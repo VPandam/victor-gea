@@ -7,8 +7,8 @@ class About extends React.Component{
             <div className='about'>
                 <div className='about__textContainer'>
                     <h1>About me</h1>
-                    <p>Hi! Im a frontend developer with a deep passion for technology and programming.
-                    I have a constant desire to acquire knowledge and contribute and develop myself as 
+                    <p>Hi! Im a frontend developer with great passion for technology and programming.
+                    <br /> I have a constant desire to acquire knowledge and contribute and develop myself as 
                     a professional of the industry.
                     <br />
                     <br />
