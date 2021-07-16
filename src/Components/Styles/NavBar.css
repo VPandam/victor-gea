@@ -1,5 +1,5 @@
 .navBar {
-  background-color: #201e1c;
+  background-color: #2e3f6e31;
   color: white;
   height: 77px;
   width: 100%;
@@ -45,8 +45,10 @@
 }
 
 .navBar__list-li:hover {
-  color: blanchedalmond;
-  background-color: #3b3935;
+  color: rgb(255, 255, 255);
+  background-color: #1d336e93;
+  border-radius: 10px;
+  border: solid 1px black;
 }
 
 .button-menu {

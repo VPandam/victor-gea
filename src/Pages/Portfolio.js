@@ -72,8 +72,8 @@ class Portfolio extends React.Component{
                         projectDescription='It is a Rick and Morty memory game made with JavaScript using 
                         React and the Rick and Morty API.'
                         projectDescription2=' When the game starts, the API is called and gets photos of 
-                        random characters in the series.'
-                        projectDescription3=' Making this game i learnt about CSS animation and API calling.'
+                        random characters in the series.
+                        Making this game i learnt about CSS animation and API calling.'
                         onModalClick = {this.onModalClick}
                         projectDeployLink = 'https://hungry-saha-1d15ce.netlify.app/'
                         projectGithubLink = 'https://github.com/VPandam/rick-and-morty-memo'
@@ -87,8 +87,8 @@ class Portfolio extends React.Component{
                     />
                     <Project 
                         projectClass='mobile-first'
-                        projectDescription='Its the website of Batatabit, in this web you can 
-                        consult the different plans, whatch graphics and learn about
+                        projectDescription='The website of Batatabit, in this web you can 
+                        consult the different plans, watch graphics and learn about
                         what the app offers you.
                         This is a project i made for learning html, css and responsive design. 
                         Its part of the frontend developer school in platzi, an online academy.'

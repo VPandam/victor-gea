@@ -1,9 +1,10 @@
 .skills {
+  height: 100vh;
   background-color: #faf8f7;
 
-  padding-top: 120px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 
@@ -95,7 +96,11 @@
   position: relative;
   top: ;
 }
-
+@media screen and (max-width: 1024px) {
+  .skills {
+    margin-bottom: 200px;
+  }
+}
 @media screen and (max-width: 550px) {
   .skills__textContainer {
     font-size: 1.5rem;

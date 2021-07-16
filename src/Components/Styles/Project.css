@@ -47,6 +47,7 @@
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  transform-origin: ;
 }
 
 /* Modal Content/Box */
@@ -122,6 +123,27 @@
 
   display: inline-block;
 }
+
+.showModal {
+  opacity: 1;
+  z-index: 2;
+  animation: show 0.8s;
+
+  transform: scale(1);
+}
+@keyframes show {
+  from {
+    transform: scale(0);
+    opacity: 0;
+    z-index: -1;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+    z-index: 2;
+  }
+}
+
 .gitHub__project-link {
   background-image: url("../../Images/GitHubLogo-min.png");
 
@@ -133,14 +155,18 @@
   display: block;
 }
 .project-link {
-  background-color: #53a5e4;
+  background-color: #415daa;
   width: 220px;
   height: 68px;
 
   border-radius: 10px;
+  border: solid 2px black;
 
   margin-top: 20px;
   float: right;
+}
+.project-link:hover {
+  background-color: #2c4fad;
 }
 .project-link a {
   color: black;
@@ -166,7 +192,7 @@
 }
 
 .rick-and-morty {
-  background-image: url("../../Images/rick-and-morty-3.png");
+  background-image: url("../../Images/rick-and-morty.png");
   background-position: bottom;
 }
 

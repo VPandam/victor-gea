@@ -14,6 +14,7 @@ function Portfolio(props) {
                 let modal = document.getElementById('myModal' + props.id);
     
                 modal.style.display='block';
+                modal.classList.add("showModal");
                 props.onModalClick(props.id)
                 }
             } ></a>

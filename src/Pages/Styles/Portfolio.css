@@ -1,6 +1,7 @@
 .portfolio {
   padding-top: 100px;
   width: 100%;
+  height: ;
 
   font-size: 2rem;
   background-color: #faf8f7;
@@ -20,7 +21,11 @@
   justify-content: center;
   flex-wrap: wrap;
 }
-
+@media screen and (max-width: 1024px) {
+  .portfolio {
+    margin-bottom: 100px;
+  }
+}
 @media screen and (max-width: 550px) {
   .text__container {
     font-size: 1.5rem;
