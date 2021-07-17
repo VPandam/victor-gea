@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/victor-gea/static/css/main.a1185964.chunk.css",
-    "main.js": "/victor-gea/static/js/main.b1dd8479.chunk.js",
-    "main.js.map": "/victor-gea/static/js/main.b1dd8479.chunk.js.map",
+    "main.css": "/victor-gea/static/css/main.d943a1e9.chunk.css",
+    "main.js": "/victor-gea/static/js/main.40479a73.chunk.js",
+    "main.js.map": "/victor-gea/static/js/main.40479a73.chunk.js.map",
     "runtime-main.js": "/victor-gea/static/js/runtime-main.e0c1cfb9.js",
     "runtime-main.js.map": "/victor-gea/static/js/runtime-main.e0c1cfb9.js.map",
     "static/js/2.49e98142.chunk.js": "/victor-gea/static/js/2.49e98142.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.56f6bf10.chunk.js": "/victor-gea/static/js/3.56f6bf10.chunk.js",
     "static/js/3.56f6bf10.chunk.js.map": "/victor-gea/static/js/3.56f6bf10.chunk.js.map",
     "index.html": "/victor-gea/index.html",
-    "static/css/main.a1185964.chunk.css.map": "/victor-gea/static/css/main.a1185964.chunk.css.map",
+    "static/css/main.d943a1e9.chunk.css.map": "/victor-gea/static/css/main.d943a1e9.chunk.css.map",
     "static/js/2.49e98142.chunk.js.LICENSE.txt": "/victor-gea/static/js/2.49e98142.chunk.js.LICENSE.txt",
     "static/media/Skills.css": "/victor-gea/static/media/spring-min.62c929df.png",
     "static/media/About.css": "/victor-gea/static/media/arrow_circle_down_black_24dp.26529ef4.svg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.e0c1cfb9.js",
     "static/js/2.49e98142.chunk.js",
-    "static/css/main.a1185964.chunk.css",
-    "static/js/main.b1dd8479.chunk.js"
+    "static/css/main.d943a1e9.chunk.css",
+    "static/js/main.40479a73.chunk.js"
   ]
 }
