@@ -24,29 +24,42 @@ class NavBar extends React.Component{
             <div className='navBar'>
                 
                 <div className='button-menu'
-                    onClick={this.handleClick} ></div>
-                <div className='button-up'> <Link to='home' spy={true} smooth={true}></Link></div>
-                    
-                
+                    onClick={this.handleClick} >
+                </div>
+
+                <div className='button-up'> <Link to='home' spy={true} smooth={true}>
+                    </Link>
+                </div>
+                     
                 <ul className={this.state.clicked ?'navBar__list-clicked' : 'navBar__list' }> 
                     <li className='navBar__list-li'>
                         <Link onClick={this.handleClickLi} to="home" spy={true} smooth={true}>
-                            <label className='navBar__Label'>Home</label> </Link></li>
+                            <label className='navBar__Label'>Home</label> 
+                        </Link>
+                    </li>
 
                     <li className='navBar__list-li'>
                         <Link onClick={this.handleClickLi} to="about" spy={true} smooth={true} >
-                            <label className='navBar__Label'>About me</label></Link></li>
+                            <label className='navBar__Label'>About me</label>
+                        </Link>
+                    </li>
 
                     <li className='navBar__list-li'>
                         <Link onClick={this.handleClickLi} to="skills__textContainer" spy={true} smooth={true}  offset={-100} >
-                            <label className='navBar__Label'>Skills</label></Link></li>
+                            <label className='navBar__Label'>Skills</label>
+                        </Link>
+                    </li>
 
                     <li className='navBar__list-li'>
                         <Link onClick={this.handleClickLi} to="portfolio" spy={true} smooth={true} >
-                        <label className='navBar__Label'>Portfolio</label></Link></li>
+                            <label className='navBar__Label'>Portfolio</label>
+                        </Link>
+                    </li>
                     <li className='navBar__list-li'>
                         <Link onClick={this.handleClickLi} to="contact" spy={true} smooth={true} >
-                            <label className='navBar__Label'>Contact</label></Link></li>
+                            <label className='navBar__Label'>Contact</label>
+                        </Link>
+                    </li>
                 </ul>          
             </div>
         </React.Fragment>

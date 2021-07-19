@@ -24,8 +24,9 @@ class Skills extends React.Component{
                     <br/>
                     <div className='java'></div>
                     <div className='spring'></div>
+                    <div className='postgres'></div>
                     <div className='csharp'></div>
-                    <div className='mysql'></div>
+                    
 
                 </div>
             </div>
