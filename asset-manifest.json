@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/victor-gea/static/css/main.b330535d.chunk.css",
+    "main.css": "/victor-gea/static/css/main.08729808.chunk.css",
     "main.js": "/victor-gea/static/js/main.55b68fe0.chunk.js",
     "main.js.map": "/victor-gea/static/js/main.55b68fe0.chunk.js.map",
     "runtime-main.js": "/victor-gea/static/js/runtime-main.e0c1cfb9.js",
@@ -10,7 +10,7 @@
     "static/js/3.56f6bf10.chunk.js": "/victor-gea/static/js/3.56f6bf10.chunk.js",
     "static/js/3.56f6bf10.chunk.js.map": "/victor-gea/static/js/3.56f6bf10.chunk.js.map",
     "index.html": "/victor-gea/index.html",
-    "static/css/main.b330535d.chunk.css.map": "/victor-gea/static/css/main.b330535d.chunk.css.map",
+    "static/css/main.08729808.chunk.css.map": "/victor-gea/static/css/main.08729808.chunk.css.map",
     "static/js/2.49e98142.chunk.js.LICENSE.txt": "/victor-gea/static/js/2.49e98142.chunk.js.LICENSE.txt",
     "static/media/Skills.css": "/victor-gea/static/media/spring-min.62c929df.png",
     "static/media/About.css": "/victor-gea/static/media/arrow_circle_down_black_24dp.26529ef4.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.e0c1cfb9.js",
     "static/js/2.49e98142.chunk.js",
-    "static/css/main.b330535d.chunk.css",
+    "static/css/main.08729808.chunk.css",
     "static/js/main.55b68fe0.chunk.js"
   ]
 }
