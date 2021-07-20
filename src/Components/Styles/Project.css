@@ -247,4 +247,8 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .modal__text-container {
+    font-size: 1.3rem;
+  }
 }
