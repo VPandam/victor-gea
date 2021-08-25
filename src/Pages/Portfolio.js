@@ -12,7 +12,7 @@ class Portfolio extends React.Component{
          // When the user clicks anywhere outside of the modal or in the close labgel, close the modal.
         window.onclick = function(event) {
             
-            if(event.target == modal || event.target == closeSpan){
+            if(event.target === modal || event.target === closeSpan){
                 
                 modal.style.display = 'none';
             }
@@ -79,11 +79,13 @@ class Portfolio extends React.Component{
                         projectGithubLink = 'https://github.com/VPandam/rick-and-morty-memo'
                     />                  
                     <Project
-                        projectClass='space-man'
+                        projectClass='jap'
                         projectDescription='Its a very simple game made for learning Unity with C#. I learnt
                         about object oriented programming, rendering in real time and procedural generation.'
                         id = '2'
                         onModalClick = {this.onModalClick}
+                        projectDeployLink = 'https://zealous-hamilton-8b56ff.netlify.app/'
+                        projectGithubLink = 'https://github.com/VPandam/Japanese-learning'
                     />
                     <Project 
                         projectClass='mobile-first'

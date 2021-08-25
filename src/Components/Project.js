@@ -10,16 +10,17 @@ function Portfolio(props) {
     return(
         <div className='project-container'> 
             <div className={'project ' + props.projectClass}>
-                <a id='etiqueta' onClick={() => {
+                <button onClick={() => {
                     let modal = document.getElementById('myModal' + props.id);
         
                     modal.style.display='block';
                     modal.classList.add("showModal");
                     props.onModalClick(props.id)
                     }
-                } ></a>
+                } >    
+                </button>
                     <Modal id={props.id}>
-                        <div className={'modal__project-image' + ' ' + props.projectClass}></div>
+                        <div className={'modal__project-image ' + props.projectClass}></div>
                         <div className='modal__text-container'>
                             <p>
                                 {props.projectDescription}
@@ -31,13 +32,13 @@ function Portfolio(props) {
                         </div>
                         <div className='link-buttons__container'>
                             <div className='project-link button__modal'>
-                                <a href={props.projectDeployLink} target='_blank' >
+                                <a href={props.projectDeployLink} target='_blank' rel='noreferrer' >
                                     <p className='modal__button_text'>Visit site</p>
                                 </a>
                             </div>
 
                             <div className='gitHub__project-link button__modal'>
-                                <a href={props.projectGithubLink} target='_blank'></a>
+                                <a href={props.projectGithubLink} target='_blank' rel='noreferrer'> </a>
                             </div>
                         </div>
                     </Modal>
