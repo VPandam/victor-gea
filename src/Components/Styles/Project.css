@@ -192,7 +192,6 @@
 }
 .jap {
   background-image: url("../../Images/jap.png");
-  background-size: contain;
 }
 
 .rick-and-morty {
@@ -203,6 +202,10 @@
 .badges {
   background-image: url("../../Images/badges.png");
   background-position: top;
+}
+
+.contain {
+  background-size: contain;
 }
 
 @media screen and (max-width: 1024px) {

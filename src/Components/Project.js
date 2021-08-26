@@ -20,7 +20,7 @@ function Portfolio(props) {
                 } >    
                 </button>
                     <Modal id={props.id}>
-                        <div className={'modal__project-image ' + props.projectClass}></div>
+                        <div className={'modal__project-image ' + props.projectClass + ' contain'}></div>
                         <div className='modal__text-container'>
                             <p>
                                 {props.projectDescription}
@@ -31,14 +31,15 @@ function Portfolio(props) {
                             </p>
                         </div>
                         <div className='link-buttons__container'>
+                        
+                            <div className='gitHub__project-link button__modal'>
+                                <a href={props.projectGithubLink} target='_blank' rel='noreferrer'> </a>
+                            </div>
+
                             <div className='project-link button__modal'>
                                 <a href={props.projectDeployLink} target='_blank' rel='noreferrer' >
                                     <p className='modal__button_text'>Visit site</p>
                                 </a>
-                            </div>
-
-                            <div className='gitHub__project-link button__modal'>
-                                <a href={props.projectGithubLink} target='_blank' rel='noreferrer'> </a>
                             </div>
                         </div>
                     </Modal>
