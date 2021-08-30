@@ -16,7 +16,7 @@ class About extends React.Component{
 
                     </p>
                     <div className='download-button'> 
-                        <a href='panda.png' download target=''>Download CV</a> 
+                        <a href='CV.pdf' download target=''>Download CV</a> 
                         <label className='download-icon'></label>
                     </div>
                 </div>
