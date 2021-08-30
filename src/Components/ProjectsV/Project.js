@@ -1,8 +1,8 @@
 import React from 'react'
 
-import './Styles/Project.css'
+import './Project.css'
 
-import Modal from './Modal'
+import Modal from '../Modal/Modal'
 
 
 function Portfolio(props) {

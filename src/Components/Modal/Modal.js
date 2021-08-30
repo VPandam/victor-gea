@@ -1,7 +1,7 @@
 import React from 'react'
 import reactDom from 'react-dom'
 
-function Modal (props){
+export default function Modal (props){
     return(
         reactDom.createPortal(
             <div id={'myModal' + props.id} className="modal">
@@ -19,4 +19,3 @@ function Modal (props){
     )
 }
 
-export default Modal;
