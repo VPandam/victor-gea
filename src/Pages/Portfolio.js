@@ -50,8 +50,28 @@ class Portfolio extends React.Component{
                 </div>
 
                 <div className='project__container'>
+                <Project 
+                        id = '3'
+                        projectClass='rick-and-morty'
+                        projectDescription='It is a Rick and Morty memory game made with JavaScript using 
+                        React and the Rick and Morty API.'
+                        projectDescription2=' When the game starts, the API is called and gets photos of 
+                        random characters in the series.
+                        Making this game i learnt about CSS animation and API calling.'
+                        onModalClick = {this.onModalClick}
+                        projectDeployLink = 'https://hungry-saha-1d15ce.netlify.app/'
+                        projectGithubLink = 'https://github.com/VPandam/rick-and-morty-memo'
+                    />  
                     
-                    
+                    <Project
+                        projectClass='jap'
+                        projectDescription='With this website you can practice japanese hiragana and katakana, its made with React using
+                        random API.'
+                        id = '2'
+                        onModalClick = {this.onModalClick}
+                        projectDeployLink = 'https://zealous-hamilton-8b56ff.netlify.app/'
+                        projectGithubLink = 'https://github.com/VPandam/Japanese-learning'
+                    />
                     <Project 
                         id = '4' 
                         onModalClick = {this.onModalClick}
@@ -66,27 +86,8 @@ class Portfolio extends React.Component{
                         additionalLink = 'https://github.com/VPandam/Badges-API'
                     />
 
-                    <Project 
-                        id = '3'
-                        projectClass='rick-and-morty'
-                        projectDescription='It is a Rick and Morty memory game made with JavaScript using 
-                        React and the Rick and Morty API.'
-                        projectDescription2=' When the game starts, the API is called and gets photos of 
-                        random characters in the series.
-                        Making this game i learnt about CSS animation and API calling.'
-                        onModalClick = {this.onModalClick}
-                        projectDeployLink = 'https://hungry-saha-1d15ce.netlify.app/'
-                        projectGithubLink = 'https://github.com/VPandam/rick-and-morty-memo'
-                    />                  
-                    <Project
-                        projectClass='jap'
-                        projectDescription='Its a very simple game made for learning Unity with C#. I learnt
-                        about object oriented programming, rendering in real time and procedural generation.'
-                        id = '2'
-                        onModalClick = {this.onModalClick}
-                        projectDeployLink = 'https://zealous-hamilton-8b56ff.netlify.app/'
-                        projectGithubLink = 'https://github.com/VPandam/Japanese-learning'
-                    />
+                                    
+                    
                     <Project 
                         projectClass='mobile-first'
                         projectDescription='The website of Batatabit, in this web you can 
