@@ -13,18 +13,18 @@ export default function Skills (){
                 <div className='html'></div>
                 <div className='css'></div>
                 <div className='js'></div>
-                <div className='responsive'></div>
+                <div className='sass'></div>
                 
                 <br/>
                 <div className='react'></div>
-                <div className='npm'></div>
+                <div className='nextjs'></div>
                 <div className='git'></div>
                 <div className='terminal'></div>
                 
                 <br/>
                 <div className='java'></div>
                 <div className='spring'></div>
-                <div className='postgres'></div>
+                <div className='responsive'></div>
                 <div className='csharp'></div>
                 
 

@@ -91,9 +91,16 @@
 
 .skills__iconContainer .postgres {
   background-image: url("../../Images/postgres.png");
-
-  top: ;
 }
+
+.skills__iconContainer .nextjs {
+  background-image: url("../../Images/nextjs-logo.png");
+}
+.skills__iconContainer .sass {
+  background-image: url("../../Images/sass.jpg");
+  background-size: cover;
+}
+
 @media screen and (max-width: 1024px) {
   .skills {
     margin-bottom: 200px;
