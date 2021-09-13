@@ -59,7 +59,7 @@ export default function Portfolio (){
                     random characters in the series.
                     Making this game i learnt about CSS animation and API calling.'
                     onModalClick = {onModalClick}
-                    projectDeployLink = 'https://hungry-saha-1d15ce.netlify.app/'
+                    projectDeployLink = 'rick-morty-memo.netlify.app'
                     projectGithubLink = 'https://github.com/VPandam/rick-and-morty-memo'
                 />  
                 
@@ -69,7 +69,7 @@ export default function Portfolio (){
                     random API.'
                     id = '2'
                     onModalClick = {onModalClick}
-                    projectDeployLink = 'https://zealous-hamilton-8b56ff.netlify.app/'
+                    projectDeployLink = 'jap-learning.netlify.app'
                     projectGithubLink = 'https://github.com/VPandam/Japanese-learning'
                 />
                 <Project 
@@ -81,7 +81,7 @@ export default function Portfolio (){
                     and delete badges.' 
                     projectDescription3='The API and the DB are deployed in heroku so it takes a while to load
                     the first time.'
-                    projectDeployLink = 'https://suspicious-gates-57218c.netlify.app/'
+                    projectDeployLink = 'https://badge-management.netlify.app/'
                     projectGithubLink = 'https://github.com/VPandam/Badge-Management-System'
                     additionalLink = 'https://github.com/VPandam/Badges-API'
                 />
