@@ -59,7 +59,7 @@ export default function Portfolio (){
                     random characters in the series.
                     Making this game i learnt about CSS animation and API calling.'
                     onModalClick = {onModalClick}
-                    projectDeployLink = 'rick-morty-memo.netlify.app'
+                    projectDeployLink = 'https://rick-morty-memo.netlify.app'
                     projectGithubLink = 'https://github.com/VPandam/rick-and-morty-memo'
                 />  
                 
@@ -69,7 +69,7 @@ export default function Portfolio (){
                     random API.'
                     id = '2'
                     onModalClick = {onModalClick}
-                    projectDeployLink = 'jap-learning.netlify.app'
+                    projectDeployLink = 'https://jap-learning.netlify.app'
                     projectGithubLink = 'https://github.com/VPandam/Japanese-learning'
                 />
                 <Project 
