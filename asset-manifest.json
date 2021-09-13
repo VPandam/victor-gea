@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/victor-gea/static/css/main.fb8ee569.chunk.css",
-    "main.js": "/victor-gea/static/js/main.4d641e95.chunk.js",
-    "main.js.map": "/victor-gea/static/js/main.4d641e95.chunk.js.map",
+    "main.js": "/victor-gea/static/js/main.00746e43.chunk.js",
+    "main.js.map": "/victor-gea/static/js/main.00746e43.chunk.js.map",
     "runtime-main.js": "/victor-gea/static/js/runtime-main.561e481f.js",
     "runtime-main.js.map": "/victor-gea/static/js/runtime-main.561e481f.js.map",
     "static/js/2.732a13b4.chunk.js": "/victor-gea/static/js/2.732a13b4.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.561e481f.js",
     "static/js/2.732a13b4.chunk.js",
     "static/css/main.fb8ee569.chunk.css",
-    "static/js/main.4d641e95.chunk.js"
+    "static/js/main.00746e43.chunk.js"
   ]
 }
