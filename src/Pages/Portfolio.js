@@ -60,7 +60,7 @@ export default function Portfolio (){
                     Making this game i learnt about CSS animation and API calling.'
                     onModalClick = {onModalClick}
                     projectDeployLink = 'https://rick-morty-memo.netlify.app'
-                    projectGithubLink = 'https://github.com/VPandam/rick-and-morty-memo'
+                    projectGithubLink = 'https://github.com/VPandam/rick-morty-memo-nextjs'
                 />  
                 
                 <Project
