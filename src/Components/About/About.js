@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.css'
+import me from '../../Images/yo2.jpeg'
 
 export default function About (){
   
@@ -7,6 +8,10 @@ export default function About (){
         <div className='about'>
             <div className='about__textContainer'>
                 <h1>About me</h1>
+                <div className='img-container'>
+                    <img src={me} alt="" />
+                </div>
+                
                 <p>Hi! I'm a frontend developer with great passion for technology and programming.
                 <br /> I have a constant desire to acquire knowledge and I'm eager to contribute 
                 and develop myself as a professional of the industry.

@@ -50,11 +50,25 @@ export default function Portfolio (){
             </div>
 
             <div className='project__container'>
+
+            <Project
+                    projectClass='jap'
+                    projectDescription='A web app made with Next.js for learning japanese hiragana and katakana.'
+                    projectDescription2='Once you have selected the syllables you want
+                    to practice, the app loads the symbol and a gif showing how to write it.'
+                    projectDescription3="You can type the syllable, if it's correct the input box will blink green
+                    and if it's wrong red."
+                    id = '2'
+                    onModalClick = {onModalClick}
+                    projectDeployLink = 'https://jap-learning.netlify.app/'
+                    projectGithubLink = 'https://github.com/VPandam/Jap-learning-nextjs'
+                />
+
             <Project 
                     id = '3'
                     projectClass='rick-and-morty'
-                    projectDescription='It is a Rick and Morty memory game made with JavaScript using 
-                    React and the Rick and Morty API.'
+                    projectDescription='It is a Rick and Morty memory game made with
+                    Next.js and the Rick and Morty API.'
                     projectDescription2=' When the game starts, the API is called and gets photos of 
                     random characters in the series.
                     Making this game i learnt about CSS animation and API calling.'
@@ -63,15 +77,7 @@ export default function Portfolio (){
                     projectGithubLink = 'https://github.com/VPandam/rick-morty-memo-nextjs'
                 />  
                 
-                <Project
-                    projectClass='jap'
-                    projectDescription='With this website you can practice japanese hiragana and katakana, its made with React using
-                    random API.'
-                    id = '2'
-                    onModalClick = {onModalClick}
-                    projectDeployLink = 'https://jap-learning.netlify.app'
-                    projectGithubLink = 'https://github.com/VPandam/Japanese-learning'
-                />
+                
                 <Project 
                     id = '4' 
                     onModalClick = {onModalClick}
