@@ -56,8 +56,7 @@ export default function Portfolio (){
                     projectDescription='A web app made with Next.js for learning japanese hiragana and katakana.'
                     projectDescription2='Once you have selected the syllables you want
                     to practice, the app loads the symbol and a gif showing how to write it.'
-                    projectDescription3="You can type the syllable, if it's correct the input box will blink green
-                    and if it's wrong red."
+                    
                     id = '2'
                     onModalClick = {onModalClick}
                     projectDeployLink = 'https://jap-learning.netlify.app/'
