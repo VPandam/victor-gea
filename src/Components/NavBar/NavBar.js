@@ -26,11 +26,10 @@ export default function NavBar (){
                     onClick={handleClick} >
                 </div>
 
-                <div className='button-up'> <Link to='home' spy={true} smooth={true}>
-                    </Link>
-                </div>
+               
                      
-                <ul className={clicked.clicked ?'navBar__list-clicked' : 'navBar__list' }> 
+    
+                <ul className={clicked.clicked ?'navBar__list-clicked scale-in-top' : 'navBar__list' }> 
 
                     <NavBarLi handleClickLi={handleClickLi} to='home'> Home</NavBarLi>
                     <NavBarLi handleClickLi={handleClickLi} to='about'> About me</NavBarLi>

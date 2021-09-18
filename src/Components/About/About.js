@@ -1,6 +1,5 @@
 import React from 'react'
 import './About.css'
-import me from '../../Images/yo2.jpeg'
 
 export default function About (){
   
