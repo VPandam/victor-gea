@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/victor-gea/static/css/main.14362ddf.chunk.css",
-    "main.js": "/victor-gea/static/js/main.99756317.chunk.js",
-    "main.js.map": "/victor-gea/static/js/main.99756317.chunk.js.map",
+    "main.css": "/victor-gea/static/css/main.34a3f217.chunk.css",
+    "main.js": "/victor-gea/static/js/main.ec0c2aff.chunk.js",
+    "main.js.map": "/victor-gea/static/js/main.ec0c2aff.chunk.js.map",
     "runtime-main.js": "/victor-gea/static/js/runtime-main.561e481f.js",
     "runtime-main.js.map": "/victor-gea/static/js/runtime-main.561e481f.js.map",
     "static/js/2.f51ae427.chunk.js": "/victor-gea/static/js/2.f51ae427.chunk.js",
@@ -10,17 +10,17 @@
     "static/js/3.ba7fc38b.chunk.js": "/victor-gea/static/js/3.ba7fc38b.chunk.js",
     "static/js/3.ba7fc38b.chunk.js.map": "/victor-gea/static/js/3.ba7fc38b.chunk.js.map",
     "index.html": "/victor-gea/index.html",
-    "static/css/main.14362ddf.chunk.css.map": "/victor-gea/static/css/main.14362ddf.chunk.css.map",
+    "static/css/main.34a3f217.chunk.css.map": "/victor-gea/static/css/main.34a3f217.chunk.css.map",
     "static/js/2.f51ae427.chunk.js.LICENSE.txt": "/victor-gea/static/js/2.f51ae427.chunk.js.LICENSE.txt",
     "static/media/Skills.css": "/victor-gea/static/media/spring-min.62c929df.png",
     "static/media/About.css": "/victor-gea/static/media/arrow_circle_down_black_24dp.26529ef4.svg",
     "static/media/Project.css": "/victor-gea/static/media/rick-and-morty.6966bd60.png",
-    "static/media/yoRedondo.b8751de3.png": "/victor-gea/static/media/yoRedondo.b8751de3.png"
+    "static/media/yo-redondo.0cf22abd.png": "/victor-gea/static/media/yo-redondo.0cf22abd.png"
   },
   "entrypoints": [
     "static/js/runtime-main.561e481f.js",
     "static/js/2.f51ae427.chunk.js",
-    "static/css/main.14362ddf.chunk.css",
-    "static/js/main.99756317.chunk.js"
+    "static/css/main.34a3f217.chunk.css",
+    "static/js/main.ec0c2aff.chunk.js"
   ]
 }
