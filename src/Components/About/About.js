@@ -11,7 +11,7 @@ export default function About (){
                 
                 <p>Hi! I'm a frontend developer with great passion for technology and programming.
                 <br /> I have a constant desire to acquire knowledge and I'm eager to contribute 
-                and develop myself as a professional of the industry.yy
+                and develop myself as a professional of the industry.
                 <br />
                 {/* <br />
                 Besides that I play guitar and piano since i was 10 and I love nature and videogames. */}
